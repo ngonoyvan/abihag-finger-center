@@ -3,3 +3,21 @@
         display: none;
     }
 } 
+.color{
+    animation: 3s yvan alternate infinite;
+}
+@keyframes yvan {
+    0%{
+        color:rgb(20, 219, 20);
+        letter-spacing: 3px;
+    }
+    50%{
+        color: red
+    }
+    85%{
+        color: yellow;
+    }
+    100%{
+        color: white;
+    }
+}
